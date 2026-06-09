@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class Amazonaws implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws',
+		displayName: 'Amazonaws',
 		name: 'N8nDevAmazonaws',
 		icon: { light: 'file:./amazonaws.png', dark: 'file:./amazonaws.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Amazon CloudFront This is the Amazon CloudFront API Reference. This guide is for developers who need detailed information about CloudFront API actions, data types, an..',
-		defaults: { name: 'amazonaws' },
+		description: 'Amazon CloudFront API Reference for developers.',
+		defaults: { name: 'Amazonaws' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

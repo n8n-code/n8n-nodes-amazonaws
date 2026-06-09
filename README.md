@@ -53,9 +53,117 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Put associate alias 2020 05 31, Post copy distribution 2020 05 31, Post create cache policy 2020 05 31, Get list cache policies 2020 05 31, Post create cloud front origin access identity 2020 05 31, Get list cloud front origin access identities 2020 05 31, Post create continuous deployment policy 2020 05 31, Get list continuous deployment policies 2020 05 31, Post create distribution 2020 05 31, Get list distributions 2020 05 31, Post create distribution with tags 2020 05 31, Post create field level encryption config 2020 05 31, Get list field level encryption configs 2020 05 31, Post create field level encryption profile 2020 05 31, Get list field level encryption profiles 2020 05 31, Post create function 2020 05 31, Get list functions 2020 05 31, Post create invalidation 2020 05 31, Get list invalidations 2020 05 31, Post create key group 2020 05 31, Get list key groups 2020 05 31, Post create monitoring subscription 2020 05 31, Delete monitoring subscription 2020 05 31, Get monitoring subscription 2020 05 31, Post create origin access control 2020 05 31, Get list origin access controls 2020 05 31, Post create origin request policy 2020 05 31, Get list origin request policies 2020 05 31, Post create public key 2020 05 31, Get list public keys 2020 05 31, Post create realtime log config 2020 05 31, Get list realtime log configs 2020 05 31, Post create response headers policy 2020 05 31, Get list response headers policies 2020 05 31, Post create streaming distribution 2020 05 31, Get list streaming distributions 2020 05 31, Post create streaming distribution with tags 2020 05 31, Delete cache policy 2020 05 31, Get cache policy 2020 05 31, Put update cache policy 2020 05 31, Delete cloud front origin access identity 2020 05 31, Get cloud front origin access identity 2020 05 31, Delete continuous deployment policy 2020 05 31, Get continuous deployment policy 2020 05 31, Put update continuous deployment policy 2020 05 31, Delete distribution 2020 05 31, Get distribution 2020 05 31, Delete field level encryption config 2020 05 31, Get field level encryption 2020 05 31, Delete field level encryption profile 2020 05 31, Get field level encryption profile 2020 05 31, Delete function 2020 05 31, Put update function 2020 05 31, Delete key group 2020 05 31, Get key group 2020 05 31, Put update key group 2020 05 31, Delete origin access control 2020 05 31, Get origin access control 2020 05 31, Delete origin request policy 2020 05 31, Get origin request policy 2020 05 31, Put update origin request policy 2020 05 31, Delete public key 2020 05 31, Get public key 2020 05 31, Post delete realtime log config 2020 05 31, Delete response headers policy 2020 05 31, Get response headers policy 2020 05 31, Put update response headers policy 2020 05 31, Delete streaming distribution 2020 05 31, Get streaming distribution 2020 05 31, Get describe function 2020 05 31, Get cache policy config 2020 05 31, Get cloud front origin access identity config 2020 05 31, Put update cloud front origin access identity 2020 05 31, Get continuous deployment policy config 2020 05 31, Get distribution config 2020 05 31, Put update distribution 2020 05 31, Get field level encryption config 2020 05 31, Put update field level encryption config 2020 05 31, Get field level encryption profile config 2020 05 31, Put update field level encryption profile 2020 05 31, Get function 2020 05 31, Get invalidation 2020 05 31, Get key group config 2020 05 31, Get origin access control config 2020 05 31, Put update origin access control 2020 05 31, Get origin request policy config 2020 05 31, Get public key config 2020 05 31, Put update public key 2020 05 31, Post get realtime log config 2020 05 31, Get response headers policy config 2020 05 31, Get streaming distribution config 2020 05 31, Put update streaming distribution 2020 05 31, Get list conflicting aliases 2020 05 31, Get list distributions by cache policy id 2020 05 31, Get list distributions by key group 2020 05 31, Get list distributions by origin request policy id 2020 05 31, Post list distributions by realtime log config 2020 05 31, Get list distributions by response headers policy id 2020 05 31, Get list distributions by web acl id 2020 05 31, Get list tags for resource 2020 05 31, Post publish function 2020 05 31, Post tag resource 2020 05 31, Post test function 2020 05 31, Post untag resource 2020 05 31, Put update distribution with staging config 2020 05 31, Put update realtime log config 2020 05 31 |
+<details>
+<summary><b>Default</b> (106 operations)</summary>
+
+- Put Associate Alias 2020 05 31
+- Post Copy Distribution 2020 05 31
+- Post Create Cache Policy 2020 05 31
+- Get List Cache Policies 2020 05 31
+- Post Create Cloud Front Origin Access Identity 2020 05 31
+- Get List Cloud Front Origin Access Identities 2020 05 31
+- Post Create Continuous Deployment Policy 2020 05 31
+- Get List Continuous Deployment Policies 2020 05 31
+- Post Create Distribution 2020 05 31
+- Get List Distributions 2020 05 31
+- Post Create Distribution With Tags 2020 05 31
+- Post Create Field Level Encryption Config 2020 05 31
+- Get List Field Level Encryption Configs 2020 05 31
+- Post Create Field Level Encryption Profile 2020 05 31
+- Get List Field Level Encryption Profiles 2020 05 31
+- Post Create Function 2020 05 31
+- Get List Functions 2020 05 31
+- Post Create Invalidation 2020 05 31
+- Get List Invalidations 2020 05 31
+- Post Create Key Group 2020 05 31
+- Get List Key Groups 2020 05 31
+- Post Create Monitoring Subscription 2020 05 31
+- Delete Monitoring Subscription 2020 05 31
+- Get Monitoring Subscription 2020 05 31
+- Post Create Origin Access Control 2020 05 31
+- Get List Origin Access Controls 2020 05 31
+- Post Create Origin Request Policy 2020 05 31
+- Get List Origin Request Policies 2020 05 31
+- Post Create Public Key 2020 05 31
+- Get List Public Keys 2020 05 31
+- Post Create Realtime Log Config 2020 05 31
+- Get List Realtime Log Configs 2020 05 31
+- Post Create Response Headers Policy 2020 05 31
+- Get List Response Headers Policies 2020 05 31
+- Post Create Streaming Distribution 2020 05 31
+- Get List Streaming Distributions 2020 05 31
+- Post Create Streaming Distribution With Tags 2020 05 31
+- Delete Cache Policy 2020 05 31
+- Get Cache Policy 2020 05 31
+- Put Update Cache Policy 2020 05 31
+- Delete Cloud Front Origin Access Identity 2020 05 31
+- Get Cloud Front Origin Access Identity 2020 05 31
+- Delete Continuous Deployment Policy 2020 05 31
+- Get Continuous Deployment Policy 2020 05 31
+- Put Update Continuous Deployment Policy 2020 05 31
+- Delete Distribution 2020 05 31
+- Get Distribution 2020 05 31
+- Delete Field Level Encryption Config 2020 05 31
+- Get Field Level Encryption 2020 05 31
+- Delete Field Level Encryption Profile 2020 05 31
+- Get Field Level Encryption Profile 2020 05 31
+- Delete Function 2020 05 31
+- Put Update Function 2020 05 31
+- Delete Key Group 2020 05 31
+- Get Key Group 2020 05 31
+- Put Update Key Group 2020 05 31
+- Delete Origin Access Control 2020 05 31
+- Get Origin Access Control 2020 05 31
+- Delete Origin Request Policy 2020 05 31
+- Get Origin Request Policy 2020 05 31
+- Put Update Origin Request Policy 2020 05 31
+- Delete Public Key 2020 05 31
+- Get Public Key 2020 05 31
+- Post Delete Realtime Log Config 2020 05 31
+- Delete Response Headers Policy 2020 05 31
+- Get Response Headers Policy 2020 05 31
+- Put Update Response Headers Policy 2020 05 31
+- Delete Streaming Distribution 2020 05 31
+- Get Streaming Distribution 2020 05 31
+- Get Describe Function 2020 05 31
+- Get Cache Policy Config 2020 05 31
+- Get Cloud Front Origin Access Identity Config 2020 05 31
+- Put Update Cloud Front Origin Access Identity 2020 05 31
+- Get Continuous Deployment Policy Config 2020 05 31
+- Get Distribution Config 2020 05 31
+- Put Update Distribution 2020 05 31
+- Get Field Level Encryption Config 2020 05 31
+- Put Update Field Level Encryption Config 2020 05 31
+- Get Field Level Encryption Profile Config 2020 05 31
+- Put Update Field Level Encryption Profile 2020 05 31
+- Get Function 2020 05 31
+- Get Invalidation 2020 05 31
+- Get Key Group Config 2020 05 31
+- Get Origin Access Control Config 2020 05 31
+- Put Update Origin Access Control 2020 05 31
+- Get Origin Request Policy Config 2020 05 31
+- Get Public Key Config 2020 05 31
+- Put Update Public Key 2020 05 31
+- Post Get Realtime Log Config 2020 05 31
+- Get Response Headers Policy Config 2020 05 31
+- Get Streaming Distribution Config 2020 05 31
+- Put Update Streaming Distribution 2020 05 31
+- Get List Conflicting Aliases 2020 05 31
+- Get List Distributions By Cache Policy ID 2020 05 31
+- Get List Distributions By Key Group 2020 05 31
+- Get List Distributions By Origin Request Policy ID 2020 05 31
+- Post List Distributions By Realtime Log Config 2020 05 31
+- Get List Distributions By Response Headers Policy ID 2020 05 31
+- Get List Distributions By Web ACL ID 2020 05 31
+- Get List Tags For Resource 2020 05 31
+- Post Publish Function 2020 05 31
+- Post Tag Resource 2020 05 31
+- Post Test Function 2020 05 31
+- Post Untag Resource 2020 05 31
+- Put Update Distribution With Staging Config 2020 05 31
+- Put Update Realtime Log Config 2020 05 31
+
+</details>
 
 ---
 

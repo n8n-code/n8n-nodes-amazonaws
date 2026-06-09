@@ -8,7 +8,7 @@ import type {
 export class AmazonawsApi implements ICredentialType {
 	name = 'N8nDevAmazonawsApi';
 
-	displayName = 'amazonaws API';
+	displayName = 'Amazonaws API';
 
 	icon: Icon = { light: 'file:../nodes/Amazonaws/amazonaws.png', dark: 'file:../nodes/Amazonaws/amazonaws.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsApi implements ICredentialType {
 			default: 'https://cloudfront.amazonaws.com',
 			required: true,
 			placeholder: 'https://cloudfront.amazonaws.com',
-			description: 'The base URL of your amazonaws API server',
+			description: 'The base URL of your Amazonaws API server',
 		},
 		{
 			displayName: 'API Key',
